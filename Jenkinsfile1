@@ -78,7 +78,7 @@ pipeline {
             steps {
                sh "trivy image adijaiswal/santa123:latest "
             }
-        }}
+        }
         
          post {
             always {
